@@ -14,6 +14,6 @@ RUN pip install -r requirements.txt
 
 COPY ./ciphers_project ciphers_project/
 
-COPY ./entrypoint.sh .
+COPY ./entrypoint.sh .3
 
 ENTRYPOINT [ "./entrypoint.sh" ]
